@@ -1,0 +1,3 @@
+div.col-md-4(style="height: 80%")
+  div.categorias.row(ng-repeat="categoria in categorias track by $index" ng-drag="true"  ng-drag-data="{categoria: categoria}")
+    p {{categoria}}

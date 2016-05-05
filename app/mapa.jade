@@ -1,0 +1,11 @@
+div
+  div.input-group
+    div.input-group-addon
+      span.glyphicon.glyphicon-search
+    input.form-control(type="text" ng-model="searchMapa")
+  div.establecimientos.row(ng-repeat="(establecimiento, rodeos) in mapa | custom:searchMapa ")
+    h2 {{establecimiento}}
+    div.col-md-6.rodeo(ng-repeat="(rodeo, items) in rodeos" ng-drop="true" ng-drop-success="onDropComplete(establecimiento,rodeo,$data)")
+      h4 {{rodeo}}
+      div.categorias.row(ng-repeat="item in items.movimientos")
+        p(ng-click='editItem(item)') {{item.destino.categoria}}

@@ -1,0 +1,16 @@
+div.container-fluid(ng-controller="listCtrl")
+  div.col-sm-10(style="height: 80%;overflow-y: scroll")
+    table.table.table-striped
+      thead
+        tr
+          th #
+          th Tipo
+          th Detalle
+      tbody
+        tr(ng-repeat='movimiento in collection track by $index')
+          td
+            a(href="#/{{movimiento.tipo}}/{{movimiento._id}}") {{ movimiento._id | date : 'd/M/yy'}}
+          td {{ movimiento.tipo }}
+          td {{ movimiento.observacion }}
+          td
+            button.btn.btn-small.btn-danger(ng-click="remove(movimiento._id,$index)") Borrar

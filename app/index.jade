@@ -1,0 +1,41 @@
+doctype html
+html(ng-app="app")
+  head
+    meta(charset="UTF-8")
+    //- inject:css
+    link(rel="stylesheet", href="styles/movimientos.css")
+    //- endinject
+    //- bower:css
+    link(rel="stylesheet", href="../vendor/bootstrap-theme.min.css")
+    link(rel="stylesheet", href="../vendor/bootstrap.min.css")
+    //- endinject
+    title Muuw 1.0
+  body
+    script
+      | window.$ = window.jQuery = require("jquery")
+    //- bower:js
+    script(src="../vendor/angular.js")
+    script(src="../vendor/pouchdb.js")
+    script(src="../vendor/jquery.js")
+    script(src="../vendor/ngDraggable.js")
+    script(src="../vendor/angular-route.js")
+    script(src="../vendor/angular-pouchdb.js")
+    script(src="../vendor/bootstrap.min.js")
+    //- endinject
+    //- inject:js
+    script(src="00-main.js")
+    script(src="00-openClasses.js")
+    script(src="01-mem.js")
+    script(src="01-seeds.js")
+    script(src="01-views.js")
+    script(src="03-directives.js")
+    script(src="04-filters.js")
+    script(src="05-tools.js")
+    script(src="10-movimiento.js")
+    script(src="11-animal.js")
+    script(src="11-item.js")
+    script(src="nav/nav.js")
+    //- endinject
+    app-nav
+    div.container-fluid
+      ng-view

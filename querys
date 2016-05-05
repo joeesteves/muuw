@@ -1,0 +1,13 @@
+{
+  "_id": "_design/listado",
+  "_rev": "7-48c48f6ac11b02e93e25d25ba46e8347",
+  "views": {
+    "categorias": {
+      "map": "function(doc) {\n  if(doc.doc_type === 'movimiento'){\n    doc.items.forEach(function(i){\n   var categoria = i.destino.categoria;\n      if(categoria){\n        emit(categoria, 1);\n      }\n    });\n  }\n}",
+      "reduce": "function(k,v){return true;}"
+    },
+    "movimientos": {
+      "map": "function(doc) {\n  if(doc.doc_type == 'movimiento'){\n   emit(doc._id, doc);\n  }\n}"
+    }
+  },
+  "language": "javascript"

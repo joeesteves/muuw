@@ -1,0 +1,10 @@
+form.form-inline
+  div.form-group
+    div.input-group
+      div.input-group-addon Fecha
+      input.form-control(type="date" ng-model="movimiento.fecha")
+    button.btn.btn-primary(ng-click="movimiento.save()") Guardar
+    button.btn.btn-warning() Volver
+  div.input-group
+    div.input-group-addon Obs
+    input.form-control(type="text" ng-model="movimiento.observacion")

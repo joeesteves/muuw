@@ -1,0 +1,11 @@
+div
+  div.input-group
+    div.input-group-addon
+      span.glyphicon.glyphicon-search
+    input.form-control(type="text" ng-model="searchMapaDisponibles")
+  div.establecimientos.row(ng-repeat="(establecimiento, rodeos) in mapaDisponible | custom:searchMapaDisponibles ")
+    h2 {{establecimiento}}
+    div.col-md-6.rodeo(ng-repeat="(rodeo, items) in rodeos")
+      h4 {{rodeo}}
+      div.categorias.row(ng-repeat="(categoria,ids) in items" ng-drag="true" ng-drag-data="{categoria: categoria, ids: ids}")
+        p {{categoria}} {{ids.length}}        

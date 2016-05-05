@@ -1,0 +1,42 @@
+{
+  "name": "electron-quick-start",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "authors": [
+    "GitHub"
+  ],
+  "license": "CC0-1.0",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/electron/electron-quick-start",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.5.5",
+    "angular": "~1.5.5",
+    "angular-pouchdb": "~4.1.0",
+    "bootstrap": "~3.3.6",
+    "ngDraggable": "~0.1.8"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "**/*.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5.5"
+  }
+}

@@ -1,0 +1,19 @@
+div(ng-controller="movimientosCtrl")
+  button(ng-click="movimiento.addItem()")
+    | Agregar item
+  button(ng-click="movimiento.save()")
+    | Guardar
+  p {{ movimiento.tipo }}
+  label Fecha
+  input(type='date' ng-model="movimiento.fecha")
+  br
+  label Lugar
+  input(type='text' ng-model='movimiento.lugar')
+  br
+  label Items
+  div(ng-repeat='item in movimiento.items track by $index')
+    label Categoria
+    select(ng-options="item as item for item in categorias" ng-model="selected")
+    label Cantidad
+    input(type='number' ng-model='item.origen.cantidad')     
+    br

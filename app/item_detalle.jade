@@ -1,0 +1,25 @@
+div(class='modal fade' id='itemDetalle' tabindex= '-1')
+  div(class='modal-dialog')
+    div(class='modal-content')
+      div(class='modal-header')
+        button(type= 'button' class='close' data-dismiss='modal' aria-label='Close')
+          span('aria-hidden'= 'true') &times;
+        h4(class='modal-title') Detalle de movimiento 
+      div(class='modal-body')
+        form.form-inline(novalidate name='itemForm' ng-submit="confirmItem(itemForm.$valid, accion)")
+          div.form-group
+            div.input-group
+              div.input-group-addon Cantidad
+              input.form-control(type="number" ng-model="itemActivo.destino.cantidad" min="1"  ng-pattern="/^[1-9](\\d+)?/" required)
+            div.input-group
+              div.input-group-addon Peso
+              input.form-control(type="number" ng-model="itemActivo.destino.peso" min="1" max="1200"  ng-pattern="/^[1-9](\\d+)?/" required)
+          h5 Dar de alta {{ itemActivo.destino.cantidad || '___' }} 
+            b {{ itemActivo.destino.categoria }} 
+            | en el 
+            b {{ itemActivo.destino.rodeo }} 
+            | del establecimiento 
+            b {{itemActivo.destino.establecimiento}} ? 
+          div(class='modal-footer')
+            button.btn.btn-danger(type='submit') Si
+            button(type='button' class='btn btn-default' data-dismiss='modal') No
