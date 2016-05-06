@@ -74,7 +74,6 @@ describe	/home/pony/muuw/tests/movimientoItem.test.js	/^describe('Item', functio
 it	/home/pony/muuw/tests/movimientoItem.test.js	/^  it('genera items cambio con origen y destino', inject(function(Item) {$/;"	function	line:3
 it	/home/pony/muuw/tests/movimientoItem.test.js	/^  it('genera items baja, con origen y sin destino', inject(function(Item) {$/;"	function	line:8
 it	/home/pony/muuw/tests/movimientoItem.test.js	/^  it('genera items alta, con destino y sin origen', inject(function(Item) {$/;"	function	line:13
-gulp	/home/pony/muuw/Gulpfile.js	/^var gulp = require('gulp'),$/;"	variable	line:1
 name	/home/pony/muuw/bower.json	/^  "name": "electron-quick-start",$/;"	function	line:2
 description	/home/pony/muuw/bower.json	/^  "description": "A minimal Electron application",$/;"	function	line:3
 main	/home/pony/muuw/bower.json	/^  "main": "main.js",$/;"	function	line:4
@@ -3215,6 +3214,95 @@ constructor	/home/pony/muuw/app/11-item.js	/^      constructor(obj){$/;"	functio
 buildItem	/home/pony/muuw/app/11-item.js	/^      buildItem(obj) {$/;"	function	line:10
 SubItem	/home/pony/muuw/app/11-item.js	/^        function SubItem(obj) {$/;"	function	line:18
 switch	/home/pony/muuw/app/11-item.js	/^        switch (this.tipo) {$/;"	function	line:21
+Rep. Hembra	/home/pony/muuw/app/muuw_config.json	/^  "Rep. Hembra": [$/;"	function	line:2
+Rep. Macho	/home/pony/muuw/app/muuw_config.json	/^  "Rep. Macho":[$/;"	function	line:6
+Invernada	/home/pony/muuw/app/muuw_config.json	/^  "Invernada":[$/;"	function	line:9
+Recria	/home/pony/muuw/app/muuw_config.json	/^  "Recria": [$/;"	function	line:12
+Cria	/home/pony/muuw/app/muuw_config.json	/^  "Cria":[$/;"	function	line:15
+grupos	/home/pony/muuw/app/muuw_config.cson	/^grupos:$/;"	function	line:1
+Rep. Hembra	/home/pony/muuw/app/muuw_config.cson	/^  "Rep. Hembra": [$/;"	function	line:2
+Rep. Macho	/home/pony/muuw/app/muuw_config.cson	/^  "Rep. Macho":[$/;"	function	line:6
+Invernada	/home/pony/muuw/app/muuw_config.cson	/^  "Invernada":[$/;"	function	line:9
+Recria	/home/pony/muuw/app/muuw_config.cson	/^  "Recria": [$/;"	function	line:12
+Cria	/home/pony/muuw/app/muuw_config.cson	/^  "Cria":[$/;"	function	line:15
+eventos	/home/pony/muuw/app/muuw_config.cson	/^eventos:$/;"	function	line:20
+alta	/home/pony/muuw/app/muuw_config.cson	/^  alta:$/;"	function	line:21
+Recepcion	/home/pony/muuw/app/muuw_config.cson	/^    Recepcion: {}$/;"	function	line:22
+Recuento	/home/pony/muuw/app/muuw_config.cson	/^    Recuento: {}$/;"	function	line:23
+Traslado	/home/pony/muuw/app/muuw_config.cson	/^    Traslado: {}$/;"	function	line:24
+cambio	/home/pony/muuw/app/muuw_config.cson	/^  cambio:$/;"	function	line:25
+Cambio de categoria	/home/pony/muuw/app/muuw_config.cson	/^    "Cambio de categoria": {}$/;"	function	line:26
+Destete	/home/pony/muuw/app/muuw_config.cson	/^    Destete:$/;"	function	line:27
+grupos	/home/pony/muuw/app/muuw_config.cson	/^      grupos: ["Cria"]$/;"	function	line:28
+origen	/home/pony/muuw/app/muuw_config.cson	/^      origen: [1,2]$/;"	function	line:29
+destino	/home/pony/muuw/app/muuw_config.cson	/^      destino: [3]$/;"	function	line:30
+Tacto	/home/pony/muuw/app/muuw_config.cson	/^    Tacto:$/;"	function	line:31
+grupos	/home/pony/muuw/app/muuw_config.cson	/^      grupos: ["Rep. Hembra"]$/;"	function	line:32
+origen	/home/pony/muuw/app/muuw_config.cson	/^      origen: [21]$/;"	function	line:33
+destino	/home/pony/muuw/app/muuw_config.cson	/^      destino: [31,32,33,36,38]$/;"	function	line:34
+Yerra	/home/pony/muuw/app/muuw_config.cson	/^    Yerra:$/;"	function	line:35
+grupos	/home/pony/muuw/app/muuw_config.cson	/^      grupos: ["Cria"]$/;"	function	line:36
+origen	/home/pony/muuw/app/muuw_config.cson	/^      origen: [1]$/;"	function	line:37
+destino	/home/pony/muuw/app/muuw_config.cson	/^      destino: [2]$/;"	function	line:38
+baja	/home/pony/muuw/app/muuw_config.cson	/^  baja:$/;"	function	line:39
+Recuento	/home/pony/muuw/app/muuw_config.cson	/^    Recuento: {}$/;"	function	line:40
+Despacho	/home/pony/muuw/app/muuw_config.cson	/^    Despacho: {}$/;"	function	line:41
+Muerte	/home/pony/muuw/app/muuw_config.cson	/^    Muerte: {}$/;"	function	line:42
+Consumo	/home/pony/muuw/app/muuw_config.cson	/^    Consumo: {}$/;"	function	line:43
+Traslado	/home/pony/muuw/app/muuw_config.cson	/^    Traslado: {}$/;"	function	line:44
+estados	/home/pony/muuw/app/muuw_config.cson	/^estados:$/;"	function	line:45
+1	/home/pony/muuw/app/muuw_config.cson	/^  1: "Al pie"$/;"	function	line:46
+2	/home/pony/muuw/app/muuw_config.cson	/^  2: "Señalado"$/;"	function	line:47
+3	/home/pony/muuw/app/muuw_config.cson	/^  3: "Destetado"$/;"	function	line:48
+11	/home/pony/muuw/app/muuw_config.cson	/^  11: "Recria"$/;"	function	line:49
+16	/home/pony/muuw/app/muuw_config.cson	/^  16: "Produccion"$/;"	function	line:50
+21	/home/pony/muuw/app/muuw_config.cson	/^  21: "Servicio"$/;"	function	line:51
+22	/home/pony/muuw/app/muuw_config.cson	/^  22: "Descanso"$/;"	function	line:52
+31	/home/pony/muuw/app/muuw_config.cson	/^  31: "Preñada"$/;"	function	line:53
+32	/home/pony/muuw/app/muuw_config.cson	/^  32: "Preñada venta"$/;"	function	line:54
+33	/home/pony/muuw/app/muuw_config.cson	/^  33: "Vacia"$/;"	function	line:55
+36	/home/pony/muuw/app/muuw_config.cson	/^  36: "C.U.T."$/;"	function	line:56
+37	/home/pony/muuw/app/muuw_config.cson	/^  37: "Seca"$/;"	function	line:57
+38	/home/pony/muuw/app/muuw_config.cson	/^  38: "Descarte"$/;"	function	line:58
+estados	/home/pony/muuw/app/config_estados.cson	/^estados:$/;"	function	line:1
+1	/home/pony/muuw/app/config_estados.cson	/^  1: "Al pie"$/;"	function	line:2
+2	/home/pony/muuw/app/config_estados.cson	/^  2: "Señalado"$/;"	function	line:3
+3	/home/pony/muuw/app/config_estados.cson	/^  3: "Destetado"$/;"	function	line:4
+11	/home/pony/muuw/app/config_estados.cson	/^  11: "Recria"$/;"	function	line:5
+16	/home/pony/muuw/app/config_estados.cson	/^  16: "Produccion"$/;"	function	line:6
+21	/home/pony/muuw/app/config_estados.cson	/^  21: "Servicio"$/;"	function	line:7
+22	/home/pony/muuw/app/config_estados.cson	/^  22: "Descanso"$/;"	function	line:8
+31	/home/pony/muuw/app/config_estados.cson	/^  31: "Preñada"$/;"	function	line:9
+32	/home/pony/muuw/app/config_estados.cson	/^  32: "Preñada venta"$/;"	function	line:10
+33	/home/pony/muuw/app/config_estados.cson	/^  33: "Vacia"$/;"	function	line:11
+36	/home/pony/muuw/app/config_estados.cson	/^  36: "C.U.T."$/;"	function	line:12
+37	/home/pony/muuw/app/config_estados.cson	/^  37: "Seca"$/;"	function	line:13
+38	/home/pony/muuw/app/config_estados.cson	/^  38: "Descarte"$/;"	function	line:14
+eventos	/home/pony/muuw/app/config_eventos.cson	/^eventos:$/;"	function	line:1
+alta	/home/pony/muuw/app/config_eventos.cson	/^  alta:$/;"	function	line:2
+Recepcion	/home/pony/muuw/app/config_eventos.cson	/^    Recepcion: {}$/;"	function	line:3
+Recuento	/home/pony/muuw/app/config_eventos.cson	/^    Recuento: {}$/;"	function	line:4
+Traslado	/home/pony/muuw/app/config_eventos.cson	/^    Traslado: {}$/;"	function	line:5
+cambio	/home/pony/muuw/app/config_eventos.cson	/^  cambio:$/;"	function	line:6
+Cambio de categoria	/home/pony/muuw/app/config_eventos.cson	/^    "Cambio de categoria": {}$/;"	function	line:7
+Destete	/home/pony/muuw/app/config_eventos.cson	/^    Destete:$/;"	function	line:8
+grupos	/home/pony/muuw/app/config_eventos.cson	/^      grupos: ["Cria"]$/;"	function	line:9
+origen	/home/pony/muuw/app/config_eventos.cson	/^      origen: [1,2]$/;"	function	line:10
+destino	/home/pony/muuw/app/config_eventos.cson	/^      destino: [3]$/;"	function	line:11
+Tacto	/home/pony/muuw/app/config_eventos.cson	/^    Tacto:$/;"	function	line:12
+grupos	/home/pony/muuw/app/config_eventos.cson	/^      grupos: ["Rep. Hembra"]$/;"	function	line:13
+origen	/home/pony/muuw/app/config_eventos.cson	/^      origen: [21]$/;"	function	line:14
+destino	/home/pony/muuw/app/config_eventos.cson	/^      destino: [31,32,33,36,38]$/;"	function	line:15
+Yerra	/home/pony/muuw/app/config_eventos.cson	/^    Yerra:$/;"	function	line:16
+grupos	/home/pony/muuw/app/config_eventos.cson	/^      grupos: ["Cria"]$/;"	function	line:17
+origen	/home/pony/muuw/app/config_eventos.cson	/^      origen: [1]$/;"	function	line:18
+destino	/home/pony/muuw/app/config_eventos.cson	/^      destino: [2]$/;"	function	line:19
+baja	/home/pony/muuw/app/config_eventos.cson	/^  baja:$/;"	function	line:20
+Recuento	/home/pony/muuw/app/config_eventos.cson	/^    Recuento: {}$/;"	function	line:21
+Despacho	/home/pony/muuw/app/config_eventos.cson	/^    Despacho: {}$/;"	function	line:22
+Muerte	/home/pony/muuw/app/config_eventos.cson	/^    Muerte: {}$/;"	function	line:23
+Consumo	/home/pony/muuw/app/config_eventos.cson	/^    Consumo: {}$/;"	function	line:24
+Traslado	/home/pony/muuw/app/config_eventos.cson	/^    Traslado: {}$/;"	function	line:25
 constructor	/home/pony/muuw/app/10-movimiento.js	/^    constructor(obj) {$/;"	function	line:4
 addItem	/home/pony/muuw/app/10-movimiento.js	/^    addItem(item) {$/;"	function	line:14
 updateItem	/home/pony/muuw/app/10-movimiento.js	/^    updateItem(updatedItem) {$/;"	function	line:20
@@ -3222,8 +3310,21 @@ drop	/home/pony/muuw/app/10-movimiento.js	/^    drop() {$/;"	function	line:26
 save	/home/pony/muuw/app/10-movimiento.js	/^    save() {$/;"	function	line:39
 get	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.get = function(id){$/;"	function	line:91
 all	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.all = function(){$/;"	function	line:94
-categorias	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.categorias = function() {$/;"	function	line:97
+categorias	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.categorias = function(accion) {$/;"	function	line:97
 mapa	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.mapa = function() {$/;"	function	line:106
 mapaDisponible	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.mapaDisponible = function(){$/;"	function	line:121
-switch	/home/pony/muuw/app/10-movimiento.js	/^          switch(caso){$/;"	function	line:153
+switch	/home/pony/muuw/app/10-movimiento.js	/^          switch(caso){$/;"	function	line:154
 remove	/home/pony/muuw/app/10-movimiento.js	/^  $scope.remove = function(id, index){$/;"	function	line:248
+constructor	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^    constructor(obj) {$/;"	function	line:4
+addItem	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^    addItem(item) {$/;"	function	line:14
+updateItem	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^    updateItem(updatedItem) {$/;"	function	line:20
+drop	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^    drop() {$/;"	function	line:26
+save	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^    save() {$/;"	function	line:39
+get	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^  Movimiento.get = function(id){$/;"	function	line:91
+all	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^  Movimiento.all = function(){$/;"	function	line:94
+categorias	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^  Movimiento.categorias = function(accion) {$/;"	function	line:97
+mapa	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^  Movimiento.mapa = function() {$/;"	function	line:106
+mapaDisponible	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^  Movimiento.mapaDisponible = function(){$/;"	function	line:121
+switch	/home/pony/muuw/app/02-movimientos/01.movServ.js	/^          switch(caso){$/;"	function	line:154
+remove	/home/pony/muuw/app/02-movimientos/02.movCtrl.js	/^  $scope.remove = function(id, index){$/;"	function	line:72
+gulp	/home/pony/muuw/Gulpfile.js	/^var gulp = require('gulp'),$/;"	variable	line:1

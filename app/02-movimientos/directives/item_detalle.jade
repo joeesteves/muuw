@@ -10,12 +10,12 @@ div(class='modal fade' id='itemDetalle' tabindex= '-1')
           div.form-group
             div.input-group
               div.input-group-addon Cantidad
-              input.form-control(type="number" ng-model="itemActivo.destino.cantidad" min="1"  ng-pattern="/^[1-9](\\d+)?/" required)
+              input.form-control(type="number" ng-model="itemActivo.destino.cantidad" min="1"  ng-pattern="/^[1-9](\\d+)?$/" required)
             div.input-group
               div.input-group-addon Peso
-              input.form-control(type="number" ng-model="itemActivo.destino.peso" min="1" max="1200"  ng-pattern="/^[1-9](\\d+)?/" required)
+              input.form-control(type="number" ng-model="itemActivo.destino.peso" min="1" max="1200"  ng-pattern="/^[1-9](\\d+)?$/" required)
           h5 Dar de alta {{ itemActivo.destino.cantidad || '___' }} 
-            b {{ itemActivo.destino.categoria }} 
+            b {{ itemActivo.destino.categoria.nombre }} 
             | en el 
             b {{ itemActivo.destino.rodeo }} 
             | del establecimiento 

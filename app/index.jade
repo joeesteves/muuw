@@ -3,7 +3,7 @@ html(ng-app="app")
   head
     meta(charset="UTF-8")
     //- inject:css
-    link(rel="stylesheet", href="styles/movimientos.css")
+    link(rel="stylesheet", href="02-movimientos/movimientos.css")
     //- endinject
     //- bower:css
     link(rel="stylesheet", href="../vendor/bootstrap-theme.min.css")
@@ -23,18 +23,21 @@ html(ng-app="app")
     script(src="../vendor/bootstrap.min.js")
     //- endinject
     //- inject:js
-    script(src="00-main.js")
-    script(src="00-openClasses.js")
-    script(src="01-mem.js")
-    script(src="01-seeds.js")
-    script(src="01-views.js")
-    script(src="03-directives.js")
-    script(src="04-filters.js")
-    script(src="05-tools.js")
-    script(src="10-movimiento.js")
-    script(src="11-animal.js")
-    script(src="11-item.js")
-    script(src="nav/nav.js")
+    script(src="00-init/00.openClasses.js")
+    script(src="00-init/01.main.js")
+    script(src="00-init/01.tools.js")
+    script(src="00-init/02.config.js")
+    script(src="00-init/02.seeds.js")
+    script(src="00-init/02.views.js")
+    script(src="00-init/03.mem.js")
+    script(src="01-nav/nav.js")
+    script(src="01-shared/02.filters.js")
+    script(src="02-movimientos/01.movServ.js")
+    script(src="02-movimientos/02.movCtrl.js")
+    script(src="02-movimientos/03.itemServ.js")
+    script(src="02-movimientos/10.routes.js")
+    script(src="03-animal/01.animalServ.js")
+    script(src="02-movimientos/directives/movDirectives.js")
     //- endinject
     app-nav
     div.container-fluid

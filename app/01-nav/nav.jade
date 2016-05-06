@@ -4,9 +4,9 @@ nav.navbar.navbar-default
       button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
       a.navbar-brand(href='#/') MuuW
     div.collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
-      ul.nav.navbar-nav(ng-repeat='(v,k) in menu')
-        li(ng-class="{'active': opcion_activa == menu[v].link }")
-          a(href='#/{{menu[v].link}}') {{ menu[v].label }} 
+      ul.nav.navbar-nav(ng-repeat='opcion in menu')
+        li(ng-class="{'active': opcion_activa == opcion.link }")
+          a(href='#/{{opcion.link}}') {{ opcion.label }} 
         //- li(ng-class="{'active': opcion_activa == 'cambio'}")
         //-   a(href='#/cambio') Cambio
         //- li(ng-class="{'active': opcion_activa == 'baja'}")

@@ -4,15 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-constructor	/home/pony/muuw/app/10-movimiento.js	/^    constructor(obj) {$/;"	function	line:4
-addItem	/home/pony/muuw/app/10-movimiento.js	/^    addItem(item) {$/;"	function	line:14
-updateItem	/home/pony/muuw/app/10-movimiento.js	/^    updateItem(updatedItem) {$/;"	function	line:20
-drop	/home/pony/muuw/app/10-movimiento.js	/^    drop() {$/;"	function	line:26
-save	/home/pony/muuw/app/10-movimiento.js	/^    save() {$/;"	function	line:39
-get	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.get = function(id){$/;"	function	line:91
-all	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.all = function(){$/;"	function	line:94
-categorias	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.categorias = function() {$/;"	function	line:97
-mapa	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.mapa = function() {$/;"	function	line:106
-mapaDisponible	/home/pony/muuw/app/10-movimiento.js	/^  Movimiento.mapaDisponible = function(){$/;"	function	line:121
-switch	/home/pony/muuw/app/10-movimiento.js	/^          switch(caso){$/;"	function	line:153
-remove	/home/pony/muuw/app/10-movimiento.js	/^  $scope.remove = function(id, index){$/;"	function	line:248

@@ -8,4 +8,4 @@ div
     div.col-md-6.rodeo(ng-repeat="(rodeo, items) in rodeos" ng-drop="true" ng-drop-success="onDropComplete(establecimiento,rodeo,$data)")
       h4 {{rodeo}}
       div.categorias.row(ng-repeat="item in items.movimientos")
-        p(ng-click='editItem(item)') {{item.destino.categoria}}
+        p(ng-click='editItem(item)') {{item.destino.categoria.alias}}
